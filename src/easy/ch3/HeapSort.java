@@ -15,7 +15,7 @@ public class HeapSort {
         int i = ++SIZE;
         //while(( i != 1) && ( input > heapArr[i/2])){ //max heap
         while(( i != 1) && ( input < heapArr[i/2])){ //min heap
-            heapArr[i] = heapArr[i/2];
+            heapArr[i] = heapArr[i/2];          //heapArr[i/2];  => parent
             i = i/2;
         }
         heapArr[i] = input;
