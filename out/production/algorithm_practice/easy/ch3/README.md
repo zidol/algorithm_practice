@@ -25,5 +25,12 @@
 
 ### Heap Sort 구현해보기
 
+
+Max heap : descending
+
+Min Heap : ascending
+
+Priority Queue que (우선순위 큐) 구현 시 Heap 사용
+
 ![heap](./img/heap.png)
 > fastcampus 강의자료 참고
