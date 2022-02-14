@@ -6,7 +6,7 @@
 
 ### 그래프를 matrix로 표현하기
 
-```
+```java
 public class UndirectedGraph{
     private int count;            
     private int[][] vertexMatrix;  
